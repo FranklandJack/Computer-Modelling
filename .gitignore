@@ -3,3 +3,5 @@
 .jpg
 #ingore any .xyz files
 .xyz
+#ignore the design doc
+.docx
