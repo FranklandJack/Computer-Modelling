@@ -84,15 +84,15 @@ String dataOutputFile = argv[2];
 PrintWriter dataOutput = new PrintWriter(new FileWriter(dataOutputFile));
 
 //Create the file to output the perhelion and aphelion data to and attach a print writer to it to output results
-String periAphFile = "PerihelionAphelion.txt";
+String periAphFile = "output/PerihelionAphelion.txt";
 PrintWriter periAphOutput = new PrintWriter(new FileWriter(periAphFile));
 
 //create the file to output the energy values and attach a print writer to it to output results
-String energyFile = "Energy.txt";
+String energyFile = "output/Energy.txt";
 PrintWriter energyOutput = new PrintWriter(new FileWriter(energyFile));
 
 //Creat the file to output the orbit numbers of each particle
-String orbitFile ="Orbits.txt";
+String orbitFile ="output/Orbits.txt";
 PrintWriter orbitOutput = new PrintWriter(new FileWriter(orbitFile));
 
   // Create an array to hold the initial perihelion of the planets from the sun 

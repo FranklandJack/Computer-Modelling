@@ -1,0 +1,5 @@
+#ignore any .png or .jpg files resulting from visulisation of outuput
+.png
+.jpg
+#ingore any .xyz files
+.xyz

@@ -9,11 +9,13 @@ Martin Tasker s1414001
 
 Instructions:
 
-Compile NBody.java
+from the directory
 
-Run in the command line in the following way;
+run; make
 
-'java NBody ParticleInput.txt ParameterInput.txt OutputFile.xyz'
+run; java NBody input/ParticleInput.txt input/ParameterInput.txt output/Output.txt 
+
+
 
 Where the first command line argument is ParticleInput.txt, the second ParameterInput.txt, and the third the output file to name in the command line. 
 
