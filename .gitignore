@@ -1,7 +1,7 @@
 #ignore any .png or .jpg files resulting from visulisation of outuput
-.png
-.jpg
+*.png
+*.jpg
 #ingore any .xyz files
-.xyz
+*.xyz
 #ignore the design doc
-.docx
+*.docx
