@@ -1,0 +1,11 @@
+mercury orbit: 3325.50 
+venus orbit: 1291.00 
+earth orbit: 799.500 
+moon orbit: 799.500 
+mars orbit: 426.000 
+jupiter orbit: 67.0000 
+saturn orbit: 27.0000 
+uranus orbit: 9.50000 
+neptune orbit: 5.00000 
+pluto orbit: 3.50000 
+halley orbit: 11.0000 

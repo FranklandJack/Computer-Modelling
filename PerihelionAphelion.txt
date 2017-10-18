@@ -1,0 +1,11 @@
+mercury: aphelion 0.466103 , perihelion 0.307215 
+venus: aphelion 0.733134 , perihelion 0.719760 
+earth: aphelion 1.01701 , perihelion 0.983322 
+moon: aphelion 1.01958 , perihelion 0.980770 
+mars: aphelion 1.66642 , perihelion 1.37477 
+jupiter: aphelion 5.47320 , perihelion 5.01591 
+saturn: aphelion 10.0761 , perihelion 9.03599 
+uranus: aphelion 20.1308 , perihelion 18.2693 
+neptune: aphelion 30.2866 , perihelion 29.7602 
+pluto: aphelion 48.0413 , perihelion 29.2858 
+halley: aphelion 35.1424 , perihelion 0.589678 
