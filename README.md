@@ -17,11 +17,16 @@ run; java NBody input/ParticleInput.txt input/ParameterInput.txt output/Output.t
 
 
 
-Where the first command line argument is ParticleInput.txt, the second ParameterInput.txt, and the third the output file to name in the command line. 
+
+Where the first command line argument input/ParticleInput.txt is the particle data, the second input/ParameterInput.txt is the parameter input for the time integration and gravational constant, and the third the output file which can be named by the user. The input files may be provided by the user if they adhere to the format given below, examples are provided. 
+
 
 The NBody Program will automatically output a file called "Energy.txt" that outputs the energy of the system at each timestep to a file.
+
 NBody will automatically output a file called "Orbits.txt" which prints out the number of orbits around the sun for the every particle in the simulation. 
-NBody will also automatically output a file called "PerihelionAphelion" which gives the perhelion and aphelion of each planet. 
+
+NBody will automatically output a file called "PerihelionAphelion.txt" which gives the perhelion and aphelion of each planet. 
+
 
 The ParticleInput.txt is formatted as:
 
@@ -50,7 +55,7 @@ gravitational constant (0.00000000000000000011905)
 
 gravational constant is given in (Au)^3 (masses of the earth)^-1 (s)^-2.
 
-Output.xyz is formatted as:
+Output.txt is formatted as:
 
 number of particles
 point number1
@@ -68,3 +73,7 @@ x3 y3 z3
 …
 
 position is given in Au.
+
+Where xi yi zi is the position of the ith particle at point number n. Points are only output every 10 steps. 
+
+VMD can be used to provide a nice visual animation of the Output.txt data, stills are provided in the example file for what this looks like. 
